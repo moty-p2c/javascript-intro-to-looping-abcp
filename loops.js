@@ -18,9 +18,7 @@ function maybeTrue() {
 
 function doWhileLoop(arr){
   do {
-    console.log(arr.length)
     arr.pop()
-    console.log(arr.length)
   } while (arr.length>0 && maybeTrue())
   return arr
 }
